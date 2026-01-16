@@ -39,6 +39,7 @@ Arduino :
 - Control motors (LEFT, RIGHT, FORWARD, BACK)
 
 ## Features
+<img src="images/circuit_image.jpg" alt="Wheelchair Overview" width="300"/>
 <img src="images/line_detection_image.jpg" alt="Wheelchair Overview" width="300"/>
 
 - Line tracing with Raspberry Pi camera and OpenCV
