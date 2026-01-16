@@ -40,6 +40,7 @@ Arduino :
 
 ## Features
 <img src="images/line_detection_image.jpg" alt="Wheelchair Overview" width="300"/>
+
 - Line tracing with Raspberry Pi camera and OpenCV
 - Obstacle detection using ultrasonic sensors
 - Automatic light activation in dark environments via light sensor
