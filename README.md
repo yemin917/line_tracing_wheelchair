@@ -1,5 +1,7 @@
 # Line Tracing Wheelchair
 
+![Wheelchair Overview](images/full_view_image.jpg)
+
 ##Project Overview
 This project implements a line-tracing autonomous wheelchair using Arduino UNO and Raspberry Pi.  
 This wheelchair is a multifunctional system designed to help patients living in hospital wards move and perform daily activities independently without the assistance of caregivers.  
