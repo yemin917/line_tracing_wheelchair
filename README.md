@@ -41,8 +41,7 @@ Arduino :
 ## Features
 | Circuit | Line Detection |
 |---------|----------------|
-| ![Circuit](images/circuit_image.jpg) | ![Line Detection](images/line_detection_image.jpg) |
-
+| <img src="images/circuit_image.jpg" width="300"> | <img src="images/line_detection_image.jpg" width="300"> |
 
 - Line tracing with Raspberry Pi camera and OpenCV
 - Obstacle detection using ultrasonic sensors
