@@ -2,14 +2,14 @@
 
 <img src="images/full_view_image.jpg" alt="Wheelchair Overview" width="500"/>
 
-##Project Overview
+## Project Overview
 This project implements a line-tracing autonomous wheelchair using Arduino UNO and Raspberry Pi.  
 This wheelchair is a multifunctional system designed to help patients living in hospital wards move and perform daily activities independently without the assistance of caregivers.  
 The Raspberry Pi processes camera images with OpenCV to detect colored lines and determine the driving direction.  
 The direction commands are sent to Arduino via serial communication to control the motors.
 
 
-##Hardware
+## Hardware
 - Raspberry Pi
 - Pi Camera v2
 - Arduino UNO
@@ -20,11 +20,11 @@ The direction commands are sent to Arduino via serial communication to control t
 - Pressure sensor (Fall detection / Touch input)
 - Buttons (Direction selection)
   
-##Software
+## Software
 - Python (OpenCV, Picamera2, Numpy, Pyserial)
 - Arduino IDE
 
-##System Architecture
+## System Architecture
 Raspberry Pi :
 - Capture image
 - Convert to HSV
@@ -46,7 +46,7 @@ Arduino :
 - User-controlled movement via buttons
 - Real-time communication between Raspberry Pi and Arduino for motor control
 
-##How to Run
+## How to Run
 1. Upload Arduino code to the Arduino UNO board : arduino/linetracing_wheelchair.ino
 2. Connect Arduino to Raspberry Pi via USB
 3. On Raspberry Pi, install required Python packages : pip3 install opencv-python picamera2 numpy pyserial
