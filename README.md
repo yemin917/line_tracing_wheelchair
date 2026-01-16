@@ -36,6 +36,18 @@ Arduino :
 - Receive serial command
 - Control motors (LEFT, RIGHT, FORWARD, BACK)
 
-##Features
+## Features
+- Line tracing with Raspberry Pi camera and OpenCV
+- Obstacle detection using ultrasonic sensors
+- Automatic light activation in dark environments via light sensor
+- Fall detection using pressure sensor
+- User-controlled movement via buttons
+- Real-time communication between Raspberry Pi and Arduino for motor control
 
 ##How to Run
+1. Upload Arduino code to the Arduino UNO board : arduino/linetracing_wheelchair.ino
+2. Connect Arduino to Raspberry Pi via USB
+3. On Raspberry Pi, install required Python packages : pip3 install opencv-python picamera2 numpy pyserial
+4. Run the Raspberry Pi main program : python3 raspberry_pi/linetr_whchair.py
+5. Use the buttons to control the wheelchair manually
+6. Press 'q' to stop the program
