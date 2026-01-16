@@ -1,6 +1,6 @@
 # Line Tracing Wheelchair
 
-![Wheelchair Overview](images/full_view_image.jpg)
+<img src="images/full_view_image.jpg" alt="Wheelchair Overview" width="600"/>
 
 ##Project Overview
 This project implements a line-tracing autonomous wheelchair using Arduino UNO and Raspberry Pi.  
