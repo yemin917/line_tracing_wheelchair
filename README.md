@@ -39,8 +39,8 @@ Arduino :
 - Control motors (LEFT, RIGHT, FORWARD, BACK)
 
 ## Features
-<img src="images/circuit_image.jpg" alt="Wheelchair Overview" width="300"/>
-<img src="images/line_detection_image.jpg" alt="Wheelchair Overview" width="300"/>
+<img src="images/circuit_image.jpg" alt="Circuit" width="300" style="display:inline-block; margin-right:10px;" />
+<img src="images/line_detection_image.jpg" alt="Line Detection" width="300" style="display:inline-block;" />
 
 - Line tracing with Raspberry Pi camera and OpenCV
 - Obstacle detection using ultrasonic sensors
